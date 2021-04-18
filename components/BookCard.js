@@ -53,8 +53,8 @@ export default function BookCard({ data, type }) {
             {author}
           </Typography>
         </CardContent>
-        <ActionButton data={data} type={type} />
       </CardActionArea>
+      <ActionButton data={data} type={type} />
     </Card>
   );
 }
